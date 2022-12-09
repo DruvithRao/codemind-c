@@ -1,0 +1,19 @@
+// 0 1
+// 0+1
+// 1+1
+// 0 1 1 2
+// 1+2
+// 3....infinte
+#include<stdio.h>
+int main()
+{
+    int n,a=0,b=1,c,i,m; //first number 0 and 1 
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        printf("%d ",a);
+        c=a+b;
+        a=b;
+        b=c;
+    }
+}
