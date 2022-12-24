@@ -3,7 +3,7 @@
 int main()
 {
     double p,r,t,a;
-    scanf("%lf%lf%lf",&p,&r,&t);
+    scanf("%lf%lf%lf%lf",&p,&r,&t,&a);
     a=p*pow((1+(r/100)),t)-p;
-    printf("%0.2lf",a);
+    printf("%.2lf",a);
 }
