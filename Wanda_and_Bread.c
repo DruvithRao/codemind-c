@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n,m,k;
-    scanf("%d%d%d",&n,&m,&k);
-    if(n<=k*m)
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(b*c>=a)
     {
         printf("YES");
     }
@@ -12,7 +12,3 @@ int main()
         printf("NO");
     }
 }
-
-
-
-
