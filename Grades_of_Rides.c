@@ -1,6 +1,8 @@
 #include<stdio.h>
-void grade(int a,int b,int c)
+int main()
 {
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
     if(a>50 && b>60 && c>100)
     {
         printf("10");
@@ -25,10 +27,4 @@ void grade(int a,int b,int c)
     {
         printf("5");
     }
-}
-int main()
-{
-    int a,b,c;
-    scanf("%d%d%d",&a,&b,&c);
-    grade(a,b,c);
 }
