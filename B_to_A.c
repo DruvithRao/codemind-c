@@ -1,10 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,m;
-    scanf("%d%d",&n,&m);
-    for(i=m;i>=n;i--)
+    int n,i,j,p;
+    scanf("%d%d",&n,&j);
+    for(i=j;i>=n;i--)
     {
+           
         printf("%d ",i);
     }
+
+    
+    
 }
