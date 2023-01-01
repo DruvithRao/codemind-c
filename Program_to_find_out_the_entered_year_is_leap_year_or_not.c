@@ -1,22 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    if(a>0)
-    if(a%400==0)
+    int n;
+    scanf("%d",&n);
+    if(((n%4==0)&&(n%100!=0))||(n%400==0))
     {
         printf("True");
     }
-    else if(a%100==0)
-    {
-        printf("False");
-    }
-    else if(a%4==0)
-    {
-        printf("True");
-    }
-    else
+    else 
     {
         printf("False");
     }
